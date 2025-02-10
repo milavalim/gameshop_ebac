@@ -40,10 +40,31 @@ section .container{
 }
 
 /* ESTILIZAÇÃO DA SESSÃO SOBRE  */
-.brands-list img{
+.brands img{
     height: 24px;
 }
 
-.brands-list li{
+.brands li{
     display: inline;
+}
+
+section .container{
+    align-items: flex-start;
+} 
+/*sobescrevendo uma regra para ajustar a página */
+
+section {
+    padding: 24px 0;;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section img{
+    margin-right: 32px;
 }
